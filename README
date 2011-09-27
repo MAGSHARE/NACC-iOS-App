@@ -1,0 +1,87 @@
+DESCRIPTION
+-----------
+This is an Xcode (4, but written to support 3) project of an iOS (iPhone/iPod Touch/iPad) project that implements a native app of the popular NA Cleantime Calculator (NACC), which is a JavaScript-based Web app available here:
+
+    http://magshare.org/blog/nacc-the-na-cleantime-calculator/
+
+The concept is simple: Enter your cleandate, and a congratulatory message will be displayed, along with a scrolling "KeyTag Chain." If the date is an anniversary, then congratulations are in order, and the app is delighted to say so.
+
+REQUIREMENTS
+------------
+This is an iOS app, made for iPhones and iPads. It is only available via the Apple App Store, and is free.
+
+    http://itunes.apple.com/us/app/nacc/id452299196?ls=1&mt=8
+
+The code in this repository was developed on Apple Xcode 4.0.2, on a Mac running 10.6.8. It *should* work on somewhat older version of Xcode and the OS.
+
+The spec uses Omni Group OmniGraffle. It's cool. Get it here:
+
+    http://www.omnigroup.com/products/omnigraffle/
+
+INSTALLATION
+------------
+Get it from the App Store.
+Get the code and spec from here.
+
+LICENSE
+-------
+This is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+NACC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this code.  If not, see <http://www.gnu.org/licenses/>.
+
+CHANGELIST
+----------
+= Version 2.1.4 =
+* August 30, 2011
+* The GMT bug was not a bug. However, there was an issue with the welcome/congratulations not erasing properly. That is fixed.
+
+= Version 2.1.3 =
+* August 30, 2011
+* Fixed a bug in which the local time was not being properly offset from GMT.
+
+= Version 2.1.2 =
+* August 27, 2011
+* Improved Farsi support.
+
+= Version 2.1.1 =
+* August 9, 2011
+* Fixed a bug, where the "shadow" wasn't being displayed.
+* Farsi (Persian) localization.
+* Changed the splash screen, so that we won't have a mismatch with localized versions.
+
+= Version 2.1 =
+* August 2, 2011
+* Made the application extremely localizable.
+* Added a "Cancel" button to the date picker.
+* Added a "Today" button to the date picker.
+* The date picker now appears in a popover for iPads, and a modal window for iPhones and iPods.
+* Added a choice to set or remove the date limits on the date picker (new setting).
+* Made some of the internal code more efficient and robust.
+* Added "gravity scrolling" to the tag results (new setting).
+
+= Version 2.0 =
+* July 25, 2011
+* Massive overhaul. The app now has three screens: Calculate, Settings and Info.
+* Many cosmetic enhancements.
+* Now can save the date, clear results and select options.
+* Resubmitted to App Store, so 2.0 should now be the first version available.
+
+= Version 1.0.1 =
+* July 23, 2011
+* Fixed a number of layout bugs that prevented the app from being rotated.
+* Fixed a small memory leak.
+* Resubmitted to App Store, so 1.0.1 should be the first version available.
+
+= Version 1.0 =
+* July 22, 2011
+* Initial check-in of GitHub project
+* First submission to Apple App Store
