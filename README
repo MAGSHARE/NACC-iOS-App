@@ -40,6 +40,10 @@ along with this code.  If not, see <http://www.gnu.org/licenses/>.
 
 CHANGELIST
 ----------
+= Version 2.1.5 =
+* October 10, 2011
+* The Farsi localization wasn't being made available, and had to be indicated in the plist file.
+
 = Version 2.1.4 =
 * August 30, 2011
 * The GMT bug was not a bug. However, there was an issue with the welcome/congratulations not erasing properly. That is fixed.
