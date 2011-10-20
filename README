@@ -40,6 +40,10 @@ along with this code.  If not, see <http://www.gnu.org/licenses/>.
 
 CHANGELIST
 ----------
+= Version 2.1.6 =
+* October 20, 2011
+* Added Swedish localization.
+
 = Version 2.1.5 =
 * October 10, 2011
 * The Farsi localization wasn't being made available, and had to be indicated in the plist file.

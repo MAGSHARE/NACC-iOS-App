@@ -1,0 +1,221 @@
+﻿/**
+    MAIN LOCALIZATION FILE
+
+    This file contains all the strings that are displayed in the NACC app.
+
+    The app is designed to be entirely localizable, so no strings are included
+    in the main app. Instead, we use keys and the NSLocalizedString function to
+    develop the displayed strings. Whatever is written here, will be displayed
+    in the app.
+
+    It is important that this file be UTF-8 encoded. Xcode has a bug, where it keeps
+    saving these as UTF-16. If this happens, you will see a bunch of upside-down
+    question marks (¿) displayed, if viewed in Xcode. It will probably display fine
+    in other text editors.
+ 
+    You localize these strings by changing the string in the RIGHT side of the "=".
+ 
+    DO NOT CHANGE THE LEFT SIDE!
+ 
+    Only change the string on the right.
+
+       DO NOT CHANGE           CHANGE
+           |                     |
+           |                     |
+           V                     V
+       "BANNER-1" = "Första drogfria dag?";
+
+    This is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    NACC is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this code.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* MAIN WINDOW -START: Banner */
+"BANNER-1" = "Första drogfria dag?";
+
+/* MAIN WINDOW -START: Button Text */
+"BUTTON-1" = "Fyll i ditt datum.";
+
+
+/* MAIN WINDOW -RESULTS: Banner Displayed for calculation results */
+"BANNER-2" = "Detta är din första drogfria dag:";
+
+/* MAIN WINDOW -RESULTS: Birthday wishes */
+"CONGRATS-1" = "GRATTIS!";
+
+/* MAIN WINDOW -RESULTS: Welcome message */
+"CONGRATS-2" = "Välkommen till NA!";
+
+/**
+ These TEXT- strings are used to build a natural-English sentence, and are displayed
+ by a certain set of rules:
+ 
+ 1) All cleantime responses have 4 different numbers:
+    1.1)    Total Days.
+            This is the total number of days that the user has been clean.
+ 
+    1.2)    Years
+            The number of years (measured by date) that the user has been clean.
+ 
+    1.3)    Months
+            The number of months into the year that the user has been clean (not total months -just months after the last year).
+ 
+    1.4)    Days
+            The number of days into the month that the user has been clean (not total days -just days after the last month).
+ 
+    For example, a user may have (This can vary, depending on the year selected):
+ 
+        Total Days = 11476
+        Years = 31
+        Months = 5
+        Days = 3
+ 
+    Now, we need to display this in a string that is easy to read, and follows proper rules.
+ 
+    In order to do this, we build the string in pieces.
+ 
+    The first part of the string is the "introduction." It is displayed for all results:
+ 
+        "You have been clean for"
+ 
+    The next part is for Total Days. The app appends the Total Days to the string (We add a space):
+ 
+        "You have been clean for" + " " + "11476"
+ 
+    We then add either "day" or "days", depending on whether there are 1 or >1 days:
+     
+        "You have been clean for" + " " + "1" + " " + "day"
+        "You have been clean for" + " " + "90" + " " + "days"
+ 
+    After that, we decide if there are more than 90 days, or 90 days or less.
+ 
+    If it is 90 days or less, we end the string there by attaching an exclamation point:
+ 
+        "You have been clean for" + " " + "90" + " " + "days" + "!"
+ 
+    If you look at the string keys below, this will be:
+ 
+        "TEXT-1" + " " + "1" + " " + "TEXT-DAY-SINGULAR" + "TEXT-4-EXCLAMATION"
+ 
+    We stop, there.
+ 
+    If it is more than 90 days, then we will be adding more to it, so we append a comma:
+ 
+        "You have been clean for" + " " + "11476" + " " + "days" + ","
+ 
+    We then add "which is":
+ 
+        "You have been clean for" + " " + "11476" + " " + "days" + "," + " " + "which is"
+ 
+    We then add the years, months and days, adjusting for singular or plural:
+ 
+        "You have been clean for" + " " + "11476" + " " + "days" + "," + " " + "which is"+ " "
+            + "31" + " " + "years" + "," + " " + "5" + " " + "months" + " " + "3" + " " + "days" + "!"
+ 
+    If you look at the string keys below, this will be:
+ 
+        "TEXT-1" + " " + "11476" + " " + "TEXT-DAYS-PLURAL" + "TEXT-5-COMMA" + " " + "TEXT-3-WHICH"+ " "
+            + "31" + " " + "TEXT-YEARS-PLURAL" + "TEXT-5-COMMA" + " " + "5" + " " + "TEXT-MONTHS-PLURAL"
+            + " " + "3" + " " + "TEXT-DAYS-PLURAL" + "TEXT-4-EXCLAMATION"
+    */
+
+/* MAIN WINDOW -RESULTS: The first part of the results string */
+"TEXT-1" = "Du har";
+
+/* MAIN WINDOW -RESULTS: And */
+"TEXT-2-AND" = "och";
+
+/* MAIN WINDOW -RESULTS: Which is */
+"TEXT-3-WHICH" = "vilket är";
+
+/* MAIN WINDOW -RESULTS: Exclamation mark */
+"TEXT-4-EXCLAMATION" = "!";
+
+/* MAIN WINDOW -RESULTS: Comma */
+"TEXT-5-COMMA" = ",";
+
+/* MAIN WINDOW -RESULTS: Day */
+"TEXT-DAY-SINGULAR" = "dag";
+
+/* MAIN WINDOW -RESULTS: Days */
+"TEXT-DAYS-PLURAL" = "dagar";
+
+/* MAIN WINDOW -RESULTS: Month */
+"TEXT-MONTH-SINGULAR" = "månad";
+
+/* MAIN WINDOW -RESULTS: Months */
+"TEXT-MONTHS-PLURAL" = "månader";
+
+/* MAIN WINDOW -RESULTS: Year */
+"TEXT-YEAR-SINGULAR" = "år";
+
+/* MAIN WINDOW -RESULTS: Years */
+"TEXT-YEARS-PLURAL" = "år";
+
+
+/* The title for the 'Today' button in the date picker toolbar */
+"DATE-PICKER-TODAY" = "idag";
+
+
+/* SETTINGS: Main Heading for the settings page */
+"SETTINGS-BANNER-1" = "NACC inställningar";
+
+/* SETTINGS: Label for the granite tag setting */
+"SETTINGS-LABEL-1" = "Visa Granit bricka:";
+
+/* SETTINGS: Label for the purple tag setting */
+"SETTINGS-LABEL-2" = "Visa lila bricka:";
+
+/* SETTINGS: Label for the every ten years setting */
+"SETTINGS-LABEL-3" = "Lila var tionde år:";
+
+/* SETTINGS: Label for the save cleantime setting */
+"SETTINGS-LABEL-4" = "Kom ihåg mitt datum:";
+
+/* SETTINGS: Label for the Limit Dates Switch */
+"SETTINGS-LABEL-5" = "Uteslut ologiska datum:";
+
+/* SETTINGS: Label for the Limit Dates Switch */
+"SETTINGS-LABEL-6" = "Luta mobil för scroll:";
+
+
+/* INFO WINDOW: The main header for the info window */
+"INFO-BANNER-1" = "NA Drogfri tidsberäknare";
+
+/* INFO WINDOW: The secondary header in the info window. */
+"INFO-BANNER-2" = "En MAGSHARE Produktion";
+
+/* INFO WINDOW: The label for the version in the info window. */
+"INFO-LABEL-1" = "Version:";
+
+/* INFO WINDOW: Label for the Source Code Link */
+"INFO-LABEL-2" = "Ladda ner källkod här. Github:";
+
+/* INFO WINDOW: The Text In The Scrolling Info Area */
+"INFO-SCROLLING-TEXT" = "Detta är en app som mäter din cleantime, inte ditt tillfrisknande. Du anger din cleandate genom att klicka på den stora vita knappen. Räknaren kommer att tala om för dig hur länge du har varit ren i total dagar. \n\nOm du har mer än 90 dagar, då pressenteras också hur många år, månader och dagar du har varit ren. Tillsammans din cleantime kommer även en härlig kedja av tjusiga nyckelringar/brickor visas. Du kan visa en granitnyckelring för var tionde år, och den lila decenium (20 år) keytag. Den lila kan även delas ut för var tionde år respektive var tjugonde år. Om du väljer att spara cleandate, minns progammet din cleantime vid varje uppstart. Du kan också ha datumväljaren förhindra att välja datum före NA började, och efter idag. Om du vill kan du få brickorna/nyckelringarna bläddra genom att luta enheten (\"gravitation rulla\"). Annars bläddrar du genom att dra fingret upp och ner i nyckelrings/brick displayen.
+";
+
+/* INFO WINDOW: MAGSHARE Link URI */
+"INFO-URI-1" = "http://magshare.org";
+
+/* INFO WINDOW: GitHub Link URI */
+"INFO-URI-2" = "https://github.com/MAGSHARE/NACC-iOS-App";
+
+
+/* TAB BAR (BOTTOM OF SCREEN): Title for the Cleantime Display Tab Bar Item */
+"TAB-BAR-1" = "Cleantime";
+
+/* TAB BAR (BOTTOM OF SCREEN): Title for the Settings Tab Bar Item */
+"TAB-BAR-2" = "Settings";
+
+/* TAB BAR (BOTTOM OF SCREEN): Title for the Info Tab Bar Item */
+"TAB-BAR-3" = "Info";

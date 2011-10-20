@@ -132,6 +132,7 @@
 		7777A84713E843A600D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/09_Black_Face.png; sourceTree = "<group>"; };
 		7777A84B13E843B100D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/10_Granite_Face.png; sourceTree = "<group>"; };
 		7777A84F13E843BB00D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/11_Purple_Face.png; sourceTree = "<group>"; };
+		777CDFEF14502DB400B838B7 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		777F0A0B13DC9F3D00610451 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		7782EB0913F8A271000C8E3F /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7782EB0C13F8A2B0000C8E3F /* fa */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fa; path = fa.lproj/01_White_Face.png; sourceTree = "<group>"; };
@@ -514,6 +515,7 @@
 				fa,
 				"fa-IR",
 				"fa-AF",
+				sv,
 			);
 			mainGroup = 77A8F40A13D5AB2D00EA8E39;
 			productRefGroup = 77A8F41613D5AB2D00EA8E39 /* Products */;
@@ -651,6 +653,7 @@
 			children = (
 				774501EF13E86748001A3E14 /* en */,
 				7782EB0913F8A271000C8E3F /* fa */,
+				777CDFEF14502DB400B838B7 /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -766,7 +769,10 @@
 		77A8F44413D5AB2D00EA8E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -786,7 +792,10 @@
 		77A8F44513D5AB2D00EA8E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
