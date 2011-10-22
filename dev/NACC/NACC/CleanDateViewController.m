@@ -465,6 +465,7 @@
 {
     // We will simply display the date, and no time.
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setTimeZone:[NSTimeZone defaultTimeZone]];
     [dateFormatter setDateStyle:NSDateFormatterLongStyle];
     [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
     [cleanDateButton setTitle:[dateFormatter stringFromDate:mySettings->cleanDate] forState:UIControlStateNormal];
