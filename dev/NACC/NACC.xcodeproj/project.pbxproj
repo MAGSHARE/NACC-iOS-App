@@ -121,6 +121,14 @@
 		774501E713E8661A001A3E14 /* NACC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NACC-Info.plist"; sourceTree = "<group>"; };
 		774501EA13E86739001A3E14 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		774501EF13E86748001A3E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		774D48DA145590D900EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/01_White_Face.png; sourceTree = "<group>"; };
+		774D48DC145590E300EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/02_Orange_Face.png; sourceTree = "<group>"; };
+		774D48DD145590EC00EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/03_Green_Face.png; sourceTree = "<group>"; };
+		774D48DE145590FE00EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/04_Red_Face.png; sourceTree = "<group>"; };
+		774D48DF1455910200EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/05_Blue_Face.png; sourceTree = "<group>"; };
+		774D48E01455919100EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/06_Yellow_Face.png; sourceTree = "<group>"; };
+		774D48E1145591A000EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/08_Gray_Face.png; sourceTree = "<group>"; };
+		774D48E2145591A500EE8D55 /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sv; path = sv.lproj/09_Black_Face.png; sourceTree = "<group>"; };
 		7777A81313E8422E00D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/01_White_Face.png; sourceTree = "<group>"; };
 		7777A82B13E8428100D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/02_Orange_Face.png; sourceTree = "<group>"; };
 		7777A82F13E8429C00D1C2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/03_Green_Face.png; sourceTree = "<group>"; };
@@ -666,6 +674,7 @@
 			children = (
 				7777A81313E8422E00D1C2AC /* en */,
 				7782EB0C13F8A2B0000C8E3F /* fa */,
+				774D48DA145590D900EE8D55 /* sv */,
 			);
 			name = 01_White_Face.png;
 			sourceTree = "<group>";
@@ -675,6 +684,7 @@
 			children = (
 				7777A82B13E8428100D1C2AC /* en */,
 				7782EB0E13F8A2BE000C8E3F /* fa */,
+				774D48DC145590E300EE8D55 /* sv */,
 			);
 			name = 02_Orange_Face.png;
 			sourceTree = "<group>";
@@ -684,6 +694,7 @@
 			children = (
 				7777A82F13E8429C00D1C2AC /* en */,
 				7782EB1013F8A2E6000C8E3F /* fa */,
+				774D48DD145590EC00EE8D55 /* sv */,
 			);
 			name = 03_Green_Face.png;
 			sourceTree = "<group>";
@@ -693,6 +704,7 @@
 			children = (
 				7777A83313E842A900D1C2AC /* en */,
 				7782EB1213F8A2F1000C8E3F /* fa */,
+				774D48DE145590FE00EE8D55 /* sv */,
 			);
 			name = 04_Red_Face.png;
 			sourceTree = "<group>";
@@ -702,6 +714,7 @@
 			children = (
 				7777A83613E842D100D1C2AC /* en */,
 				7782EB1513F8A2FF000C8E3F /* fa */,
+				774D48DF1455910200EE8D55 /* sv */,
 			);
 			name = 05_Blue_Face.png;
 			sourceTree = "<group>";
@@ -711,6 +724,7 @@
 			children = (
 				7777A83B13E8437D00D1C2AC /* en */,
 				7782EB1613F8A309000C8E3F /* fa */,
+				774D48E01455919100EE8D55 /* sv */,
 			);
 			name = 06_Yellow_Face.png;
 			sourceTree = "<group>";
@@ -729,6 +743,7 @@
 			children = (
 				7777A84313E8439600D1C2AC /* en */,
 				7782EB1A13F8A31F000C8E3F /* fa */,
+				774D48E1145591A000EE8D55 /* sv */,
 			);
 			name = 08_Gray_Face.png;
 			sourceTree = "<group>";
@@ -738,6 +753,7 @@
 			children = (
 				7777A84713E843A600D1C2AC /* en */,
 				7782EB1C13F8A330000C8E3F /* fa */,
+				774D48E2145591A500EE8D55 /* sv */,
 			);
 			name = 09_Black_Face.png;
 			sourceTree = "<group>";
