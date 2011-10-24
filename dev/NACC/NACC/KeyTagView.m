@@ -50,7 +50,7 @@ static  KeyFobImageInfoPtr  s_imageFileInfo = nil;
         
         if ( s_imageFileInfo )
             {
-            s_imageFileInfo->image_file_names = [[NSArray alloc] initWithObjects:@"01_White", @"02_Orange", @"03_Green", @"04_Red", @"05_Blue", @"06_Yellow", @"07_GlowInTheDark", @"08_Gray", @"09_Black", @"10_Granite", @"11_Purple", nil];
+            s_imageFileInfo->image_file_names = [[NSArray alloc] initWithObjects:@"01_White", @"02_Orange", @"03_Green", @"04_Red", @"05_Blue", @"06_Yellow", @"07_Year", @"08_Gray", @"09_Black", @"10_Granite", @"11_Purple", nil];
             s_imageFileInfo->closed_ring_fileName = @"ClosedRing";
             s_imageFileInfo->open_ring_fileName = @"OpenRing";
             s_imageFileInfo->small_suffix = @"_160";
