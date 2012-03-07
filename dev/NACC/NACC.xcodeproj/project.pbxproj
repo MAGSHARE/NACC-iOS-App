@@ -65,27 +65,11 @@
 		77A8F41E13D5AB2D00EA8E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A8F41D13D5AB2D00EA8E39 /* CoreGraphics.framework */; };
 		77A8F42713D5AB2D00EA8E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8F42613D5AB2D00EA8E39 /* main.m */; };
 		77A8F42A13D5AB2D00EA8E39 /* NACCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8F42913D5AB2D00EA8E39 /* NACCAppDelegate.m */; };
-		77A8F43413D5AB2D00EA8E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A8F41913D5AB2D00EA8E39 /* UIKit.framework */; };
-		77A8F43513D5AB2D00EA8E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A8F41B13D5AB2D00EA8E39 /* Foundation.framework */; };
-		77A8F43613D5AB2D00EA8E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A8F41D13D5AB2D00EA8E39 /* CoreGraphics.framework */; };
-		77A8F43E13D5AB2D00EA8E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77A8F43C13D5AB2D00EA8E39 /* InfoPlist.strings */; };
-		77A8F44113D5AB2D00EA8E39 /* NACCTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 77A8F44013D5AB2D00EA8E39 /* NACCTests.h */; };
-		77A8F44313D5AB2D00EA8E39 /* NACCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8F44213D5AB2D00EA8E39 /* NACCTests.m */; };
 		77E0903D13D89A69003D67CD /* KeytagScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0903C13D89A69003D67CD /* KeytagScrollerViewController.m */; };
 		77F054C413D74EC500C75A98 /* KeyTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F054C313D74EC500C75A98 /* KeyTagView.m */; };
 		77F998AC13E82AD5001D9EA9 /* CleanDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F998AB13E82AD5001D9EA9 /* CleanDateViewController.xib */; };
 		77FB877F13DDB17B00A11D9B /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FB877E13DDB17B00A11D9B /* InfoViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		77A8F43713D5AB2D00EA8E39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 77A8F40C13D5AB2D00EA8E39 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 77A8F41413D5AB2D00EA8E39;
-			remoteInfo = NACC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7706D5F013DC569900758E6F /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
@@ -176,12 +160,6 @@
 		77A8F42513D5AB2D00EA8E39 /* NACC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NACC-Prefix.pch"; sourceTree = "<group>"; };
 		77A8F42613D5AB2D00EA8E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A8F42913D5AB2D00EA8E39 /* NACCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACCAppDelegate.m; sourceTree = "<group>"; };
-		77A8F43313D5AB2D00EA8E39 /* NACCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77A8F43B13D5AB2D00EA8E39 /* NACCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NACCTests-Info.plist"; sourceTree = "<group>"; };
-		77A8F43D13D5AB2D00EA8E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		77A8F43F13D5AB2D00EA8E39 /* NACCTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NACCTests-Prefix.pch"; sourceTree = "<group>"; };
-		77A8F44013D5AB2D00EA8E39 /* NACCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NACCTests.h; sourceTree = "<group>"; };
-		77A8F44213D5AB2D00EA8E39 /* NACCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACCTests.m; sourceTree = "<group>"; };
 		77E0903B13D89A69003D67CD /* KeytagScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeytagScrollerViewController.h; sourceTree = "<group>"; };
 		77E0903C13D89A69003D67CD /* KeytagScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeytagScrollerViewController.m; sourceTree = "<group>"; };
 		77E166D513F1816C00113DDA /* NACCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACCAppDelegate.h; sourceTree = "<group>"; };
@@ -200,16 +178,6 @@
 				77A8F41A13D5AB2D00EA8E39 /* UIKit.framework in Frameworks */,
 				77A8F41C13D5AB2D00EA8E39 /* Foundation.framework in Frameworks */,
 				77A8F41E13D5AB2D00EA8E39 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77A8F42F13D5AB2D00EA8E39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77A8F43413D5AB2D00EA8E39 /* UIKit.framework in Frameworks */,
-				77A8F43513D5AB2D00EA8E39 /* Foundation.framework in Frameworks */,
-				77A8F43613D5AB2D00EA8E39 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +381,6 @@
 			isa = PBXGroup;
 			children = (
 				77A8F41F13D5AB2D00EA8E39 /* NACC */,
-				77A8F43913D5AB2D00EA8E39 /* NACCTests */,
 				77A8F41813D5AB2D00EA8E39 /* Frameworks */,
 				77A8F41613D5AB2D00EA8E39 /* Products */,
 			);
@@ -423,7 +390,6 @@
 			isa = PBXGroup;
 			children = (
 				77A8F41513D5AB2D00EA8E39 /* NACC.app */,
-				77A8F43313D5AB2D00EA8E39 /* NACCTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -451,26 +417,6 @@
 			path = NACC;
 			sourceTree = "<group>";
 		};
-		77A8F43913D5AB2D00EA8E39 /* NACCTests */ = {
-			isa = PBXGroup;
-			children = (
-				77A8F44013D5AB2D00EA8E39 /* NACCTests.h */,
-				77A8F44213D5AB2D00EA8E39 /* NACCTests.m */,
-				77A8F43A13D5AB2D00EA8E39 /* Supporting Files */,
-			);
-			path = NACCTests;
-			sourceTree = "<group>";
-		};
-		77A8F43A13D5AB2D00EA8E39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77A8F43B13D5AB2D00EA8E39 /* NACCTests-Info.plist */,
-				77A8F43C13D5AB2D00EA8E39 /* InfoPlist.strings */,
-				77A8F43F13D5AB2D00EA8E39 /* NACCTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,25 +436,6 @@
 			productName = NACC;
 			productReference = 77A8F41513D5AB2D00EA8E39 /* NACC.app */;
 			productType = "com.apple.product-type.application";
-		};
-		77A8F43213D5AB2D00EA8E39 /* NACCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 77A8F44913D5AB2D00EA8E39 /* Build configuration list for PBXNativeTarget "NACCTests" */;
-			buildPhases = (
-				77A8F42E13D5AB2D00EA8E39 /* Sources */,
-				77A8F42F13D5AB2D00EA8E39 /* Frameworks */,
-				77A8F43013D5AB2D00EA8E39 /* Resources */,
-				77A8F43113D5AB2D00EA8E39 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				77A8F43813D5AB2D00EA8E39 /* PBXTargetDependency */,
-			);
-			name = NACCTests;
-			productName = NACCTests;
-			productReference = 77A8F43313D5AB2D00EA8E39 /* NACCTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -535,7 +462,6 @@
 			projectRoot = "";
 			targets = (
 				77A8F41413D5AB2D00EA8E39 /* NACC */,
-				77A8F43213D5AB2D00EA8E39 /* NACCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -598,32 +524,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77A8F43013D5AB2D00EA8E39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77A8F43E13D5AB2D00EA8E39 /* InfoPlist.strings in Resources */,
-				77A8F44113D5AB2D00EA8E39 /* NACCTests.h in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		77A8F43113D5AB2D00EA8E39 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77A8F41113D5AB2D00EA8E39 /* Sources */ = {
@@ -641,23 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77A8F42E13D5AB2D00EA8E39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77A8F44313D5AB2D00EA8E39 /* NACCTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		77A8F43813D5AB2D00EA8E39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 77A8F41413D5AB2D00EA8E39 /* NACC */;
-			targetProxy = 77A8F43713D5AB2D00EA8E39 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		774501F013E86748001A3E14 /* Localizable.strings */ = {
@@ -776,14 +661,6 @@
 			name = 07_Year_Face.png;
 			sourceTree = "<group>";
 		};
-		77A8F43C13D5AB2D00EA8E39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77A8F43D13D5AB2D00EA8E39 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -844,7 +721,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "NACC/NACC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -866,7 +743,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "NACC/NACC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -874,54 +751,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		77A8F44A13D5AB2D00EA8E39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NACC.app/NACC";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NACCTests/NACCTests-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "NACCTests/NACCTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		77A8F44B13D5AB2D00EA8E39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NACC.app/NACC";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NACCTests/NACCTests-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "NACCTests/NACCTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -942,15 +771,6 @@
 			buildConfigurations = (
 				77A8F44713D5AB2D00EA8E39 /* Debug */,
 				77A8F44813D5AB2D00EA8E39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		77A8F44913D5AB2D00EA8E39 /* Build configuration list for PBXNativeTarget "NACCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77A8F44A13D5AB2D00EA8E39 /* Debug */,
-				77A8F44B13D5AB2D00EA8E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
